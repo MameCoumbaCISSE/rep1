@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!ELEMENT Syllabus(DescriptionCours,RenseignementEnseignant,LieuHoraire)>
+<!ELEMENT DescriptionCours(intitule,UE,ChargeDeTravail,SemestreCours,Niveau, Prerequis)>
+<!ELEMENT intitule(#PCDATA)>
+<!ELEMENT UE(Titre,Sigle)>
+<!ELEMENT Titre(#PCDATA)>
+<!ELEMENT Sigle(#PCDATA)>
+<!ELEMENT ChargeDeTravail(credit,coefficient,VolumeHoraire)>
+<!ELEMENT credit(#PCDATA)>
+<!ELEMENT coefficient(#PCDATA)>
+<!ELEMENT VolumeHoraire(CM,TDTP,TPE)>
+<!ELEMENT SemestreCours(#PCDATA)>
+<!ELEMENT Niveau(#PCDATA)>
+<!ELEMENT Prerequis(Prereq1,Prereq2,Prereq3)>
+<!ELEMENT Prereq1(#PCDATA)>
+<!ELEMENT Prereq2(#PCDATA)>
+<!ELEMENT Prereq3(#PCDATA)>
+<!ELEMENT RenseignementEnseignant(Nombre,Prenom,Nom,AdresseB,Courriel,HeuresB
+)>
+<!ELEMENT Nombre(#PCDATA)>
+<!ELEMENT Prenom(#PCDATA)>
+<!ATTLIST Prenom grade PCDATA #IMPLIED>
+<!ELEMENT Nom(#PCDATA)>
+<!ELEMENT AdresseB(#PCDATA)>
+<!ELEMENT Courriel(#PCDATA)>
+<!ELEMENT HeuresB(Hdebut,Hfin)>
+<!ELEMENT Hdebut(#PCDATA)>
+<!ELEMENT Hfin(#PCDATA)>
+<!ELEMENT LieuHoraire(SalleCours,HDebutCours,HFinCours)>
+<!ELEMENT SalleCours(#PCDATA)>
+<!ELEMENT HDebutCours(#PCDATA)>
+<!ELEMENT HFincours(#PCDATA)>
+

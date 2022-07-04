@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE Syllabus SYSTEM "document.dtd">
+<Syllabus>	
+	<DescriptionCours>
+		<intitule>Système d'Information</intitule>
+		<UniteEnseignement>
+			<Titre>Informatique</Titre>
+			<Sigle>INF 413</Sigle>
+		</UniteEnseignement>
+		<ChargeDeTravail>
+			<Credit>3</Credit>
+			<Coefficient>2</Coefficient>
+			<VolumeHoraire>
+				<CM>15H</CM>
+				<TDTP>15H</TDTP>
+				<TPE>30H</TPE>
+			</VolumeHoraire>
+		</ChargeDeTravail>
+		<SemestreCours>Semestre 1</SemestreCours>
+		<Niveau>Master 1</Niveau>
+		<Prerequis>
+			<Prereq1>Connaissances en Informatique ou en RT</Prereq1>
+			<Prereq2>Maîtrise du langage UML</Prereq2>
+			<Prereq3>Capacité d'analyser des besoins</Prereq3>
+		</Prerequis>
+    </DescriptionCours>
+	
+	<RenseignementEnseignant>
+		<Nombre>1</Nombre>
+		<Prenom grade="Docteur">François</Prenom>
+		<Nom>KALY</Nom>
+		<AdresseB>Bureau 3</AdresseB>
+		<Courriel>françois.kaly@univ-thies.sn</Courriel>
+		<HeuresB>
+			<HDebut>9H</HDebut>
+			<Hfin>16H</Hfin>
+		</HeuresB>
+	</RenseignementEnseignant>
+	
+	<LieuHoraire>
+		<SalleCours>Salle 5</SalleCours>
+		<HDebutCours>15H</HDebutCours>
+		<HFinCours>18H</HFinCours>
+	</LieuHoraire>
+</Syllabus>
